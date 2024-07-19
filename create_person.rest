@@ -1,0 +1,13 @@
+POST http://localhost:3002/api/persons
+Content-Type: application/json
+
+{
+    "name": "Bright Iniabasi",
+    "number": "081-6455-8159"
+}
+
+###
+GET http://localhost:3002/api/persons
+
+###
+DELETE http://localhost:3002/api/persons/3
